@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 40px; /* Increased padding */
+    text-align: center;
+    width: 500px; /* Width remains 500px */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 32px; /* Increased font size */
+}
+
+.input-group {
+    margin-bottom: 30px; /* Increased space between input groups */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px; /* Larger font size for labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 25px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 22px; /* Larger font size for input */
+    color: #000; /* Dark text for better visibility */
+    background-color: #fff; /* White background for input */
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 25px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px; /* Larger font size for button */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.result {
+    margin-top: 30px; /* Increased space above result */
+    font-size: 26px; /* Increased font size for result */
+    padding: 20px; /* Increased padding */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black; /* Set result text color to black */
+    font-weight: bold; /* Make the result text bold */
+}
